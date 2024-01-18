@@ -1,0 +1,205 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+                  "Bye", 
+                  "See you later", 
+                  "Goodbye",
+                  "see ya", 
+                  "I am going now",
+                  "see you later",
+                  "buh Bye", 
+                  "byeeee",
+                  "adios",
+                  "later"
+                ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+        ,"Ill be here when you need me",
+        "just chat when you need me"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","all good now"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "where_queries",
+      "patterns": [
+        "Where Is centennial College?",
+        "Where is the college located?",
+        "Where is the college?",
+        "where can i find centennial college?",
+        "what is the address of centennial college?",
+        "is there any centennial college in toronto?",
+        "I would like to visit centennial college where is it?",
+        "where is it?"
+      ],
+      "responses": [
+        "Centennial College is located at 941 Progress Ave, Scarborough",
+        "Centennial College is in Scarborough",
+        "Progress Campus is located at 941 Progress Ave, Scarborough",
+        "we are at 941 Progress Ave, Scarborough"
+      ]
+    },
+    {
+      "tag": "class_queries",
+      "patterns": [
+        "What classes do you offer?",
+        "How many classes do you offer?",
+        "what can I study at Centennial College?",
+        "Are there any classes for me?",
+        "Are there any classes for me to study?",
+        "Can I study there?",
+        "what can i study?",
+        "is there anything for me to study?",
+        "I want to study what can i tale?",
+        "Is this somthing I can study?",
+        "what classes can i take?"
+      ],
+      "responses": [
+        "There are over 160 programs ",
+        "We have over 160 programs",
+        "it would be better if you can visit our website to see all the programs we offer",
+        "its hard to give all the programs we offer here, please visit our website to see all the programs we offer"
+      ]
+    },
+    {
+      "tag": "class_delivery",
+      "patterns": [
+        "How can I take classes?",
+        "Can I study online?",
+        "Is it only online?",
+        "how is class delivered?",
+        "what is the delivery mode?",
+        "how am i going to take my classes?"
+      ],
+      "responses": [
+        "We offer classes in person and online",
+        "we offer classes from online to in person and everything in between"
+      ]
+    },
+    {
+      "tag": "campus_queries",
+      "patterns": [
+        "How many campuses do you have?",
+        "Are there campuses near me?"
+      ],
+      "responses": [
+        "we have campuses all over Toronto",
+        "We have 5 campuses in Toronto"
+      ]
+    },
+    {
+      "tag": "bolt_questions",
+      "patterns":[
+        "who are you?",
+        "what is your name?",
+        "what are you?",
+        "who is Bolt?",
+        "are you a mascot?"
+      ],
+      "responses":[
+        "I am Bolt, I am a chatbot",
+        "I am Bolt, I am a chatbot created by Centennial College",
+        "I am Bolt, I am a chatbot created by Centennial College to help you with your queries",
+        "I am bolt Centennial College's chatbot and Mascot"
+      ]
+    },
+    {
+      "tag":"sports",
+      "patterns":[
+        "what sports do you offer?",
+        "what sports can I play?"],
+      "responses":[
+        "we offer a wide range of sports",
+        "we offer a wide range of sports from soccer to basketball and everything in between",
+        "you can try out for our several teams from soccer to american football and even basketball"
+      ]
+    },
+    {
+      "tag":"website",
+      "patterns":[
+        "what is your website?",
+        "what is your website address?",
+        "what is your website url?",
+        "what is your website link?"
+      ],
+      "responses":[
+        "our website is https://www.centennialcollege.ca/",
+        "you can visit our website at https://www.centennialcollege.ca/",
+        "you can visit our website at https://www.centennialcollege.ca/ to see all the programs we offer"
+      ]
+    },
+    {
+      "tag":"campus_life",
+      "patterns":[
+        "what is campus life like?",
+        "what is the campus life like?",
+        "what is the campus life?",
+        "what is campus life?"
+      ],
+      "responses":[
+        "campus life is great",
+        "campus life is great, we have a lot of clubs and activities for you to join",
+        "campus life is great, we have a lot of clubs and activities for you to join, you can visit our website to see all the clubs and activities we offer"
+      ]
+    },
+    {
+      "tag":"social_media",
+      "patterns":[
+        "what is your social media?",
+        "what is your social media link?",
+        "what is your social media url?",
+        "what is your social media address?",
+        "do you have a social media?",
+        "instagram?",
+        "whats your insta?",
+        "whats your instagram?"
+      ],
+      "responses":[
+        "you can visit our social media at https://www.instagram.com/centennialcollege/",
+        "you can visit our social media at https://www.instagram.com/centennialcollege/ to see all the programs we offer",
+        "you can visit our social media at https://www.instagram.com/centennialcollege/ to see all the programs we offer and all the clubs and activities we offer"
+      ]
+    },
+    {
+      "tag":"espanol",
+      "patterns":[
+        "Hola",
+        "Buenos dias",
+        "Buenas tardes",
+        "Buenas noches",
+        "Como estas?",
+        "Como te llamas?",
+        "Quien eres?",
+        "Quien es Bolt?",
+        "hablas espanol?"
+      ],
+      "responses":[
+        "Lo sentimos, no admitimos español en este momento, por favor use inglés."
+      ]
+    }
+  ]
+}
