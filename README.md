@@ -1,5 +1,5 @@
 # A Deeplearning chatbot concept 
-## its built and trained to answer basic questions about Centennial College Progress campus
+its built and trained to answer basic questions about Centennial College Progress campus
 
 
 
