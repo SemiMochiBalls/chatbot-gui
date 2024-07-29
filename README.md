@@ -1,1 +1,7 @@
-# Credit to Pat Loeber for teaching the basics of tensorflow and Machine Learning in Python https://twitter.com/patloeber
+# A Deeplearning chatbot concept 
+## its built and trained to answer basic questions about Centennial College Progress campus
+
+
+
+
+CTTO https://twitter.com/patloeber
